@@ -120,7 +120,8 @@ body{
 	}
 
 	.button.selected {
-        background-color: red;
+		background-color: brown	;
+        border: 10px solid rgb(89, 67, 34);
         color: white;
       }
 
