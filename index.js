@@ -1,3 +1,13 @@
+
+//timer function
+const fs = require("fs");
+
+const arrWordList = fs.readFileSync("./word-list.txt", "utf8").split("\n");
+console.log(arrWordList);
+
+const text = "abattis";
+
+
 const boggleLetters = {
     cube1: "AAEEGN",
     cube2: "ABBJOO",
@@ -43,3 +53,4 @@ const boggleLetters = {
     });
   });
   
+
