@@ -1,11 +1,19 @@
-
-//timer function
 const fs = require("fs");
 
-const arrWordList = fs.readFileSync("./word-list.txt", "utf8").split("\n");
-console.log(arrWordList);
-console.log(arrWordList[0]);
-const text = "abattis";
+const arrWordList = fs.readFileSync(__dirname + "./word-list.txt", "utf8").split("\n");
+
+function seurch(arr, text) {
+  let result = false;
+  for (let i = 0; i < arr.length; i += 1) {
+    if (arr[i] == text) {
+        return true;
+    }
+  }
+  return result;
+}
+// const text = 'abirritative'
+console.log(seurch(arrWordList, text));
+
 
 
 const boggleLetters = {

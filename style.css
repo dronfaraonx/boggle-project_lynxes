@@ -119,6 +119,11 @@ body{
 	border-radius: 10px;
 	}
 
+	.button.selected {
+        background-color: red;
+        color: white;
+      }
+
 	.bocksButton{
 		/* border: 1px solid black; */
 		display: flex;
