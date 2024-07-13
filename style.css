@@ -119,11 +119,11 @@ body{
 	border-radius: 10px;
 	}
 
-	.button.selected, button:hover {
-        background-color: red;
+	.button.selected {
+		background-color: brown	;
+        border: 10px solid rgb(89, 67, 34);
         color: white;
       }
-	
 
 	.bocksButton{
 		/* border: 1px solid black; */
