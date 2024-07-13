@@ -1,11 +1,11 @@
 
 //timer function
-const fs = require("fs");
+// const fs = require("fs");
 
-const arrWordList = fs.readFileSync("./word-list.txt", "utf8").split("\n");
-console.log(arrWordList);
+// const arrWordList = fs.readFileSync("./word-list.txt", "utf8").split("\n");
+// console.log(arrWordList);
 
-const text = "abattis";
+// const text = "abattis";
 
 
 const boggleLetters = {
