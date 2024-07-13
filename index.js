@@ -4,7 +4,7 @@ const fs = require("fs");
 
 const arrWordList = fs.readFileSync("./word-list.txt", "utf8").split("\n");
 console.log(arrWordList);
-
+console.log(arrWordList[0]);
 const text = "abattis";
 
 
